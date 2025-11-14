@@ -10,5 +10,7 @@ function login(e){
         password: document.getElementById("password").value
     }
 
+    console.log(user);
+
     console.log("wow u logged in!!!!")
 }
